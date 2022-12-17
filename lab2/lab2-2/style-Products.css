@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+ html{
+    font-size: 62.5%;
+    font-family: 'Baloo Bhai 2', cursive;
+    scroll-behavior: smooth;
+} 
+body{
+    
+ font-size: 1.6rem; 
+
+}
+ .container{
+    max-width: 144rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    margin-top: 50px;
+} 
+.Products{
+    padding: 2rem 0;
+    display: grid;
+grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+gap: 2rem;
+}
+.product{
+    background-color: #f9f8fc;
+
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.product-content{
+    padding: 1rem 2rem;
+}
+.product img{
+    width: 100%;
+}
+.product {
+font-size: 2rem;
+padding: 1rem 0;
+}
+.product-title,.product-category,
+.product-price-container,.product-description{
+    padding: 1rem 0.5rem 0;
+}
+.product-price-container{
+    padding-top: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+ 
+
+
+
+
+
